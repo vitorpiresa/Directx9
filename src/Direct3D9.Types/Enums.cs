@@ -257,3 +257,11 @@ public enum WrapCoord : uint
 	Coord_2 = 0x00000004,
 	Coord_3 = 0x00000008,
 }
+
+public enum ColorWriteEnable : uint
+{
+	Red = 0x00000001,
+	Green = 0x00000002,
+	Blue = 0x00000004,
+	Alpha = 0x00000008,
+}
