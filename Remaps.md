@@ -25,6 +25,7 @@ D3DTRANSFORMSTATETYPE => TransformStateType
 D3DRENDERSTATETYPE => RenderStateType
 D3DMATERIALCOLORSOURCE => MaterialColorSource
 D3DTEXTURESTAGESTATETYPE => TextureStageStateType
+D3DSAMPLERSTATETYPE = SamplerStateType
 
 ### Constants / Macros
 
