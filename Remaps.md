@@ -36,3 +36,7 @@ D3DTS_WORLD => TransformState::World
 D3DTS_WORLDn => TransformState::Worldn
 
 D3D_MAX_SIMULTANEOUS_RENDERTARGETS => ?
+
+D3DRENDERSTATE_* => RenderState
+D3DWRAP_* => Wrap
+D3DWRAPCOORD_* => WrapCoord

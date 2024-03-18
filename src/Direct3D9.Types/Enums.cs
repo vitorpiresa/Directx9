@@ -237,3 +237,23 @@ public enum MaterialColorSource
 	Color1 = 1,
 	Color2 = 2,
 }
+
+public enum RenderState : uint
+{
+	WrapBias = 128,
+}
+
+public enum Wrap : uint
+{
+	Wrap_U = 0x00000001,
+	Wrap_V = 0x00000002,
+	Wrap_W = 0x00000004,
+}
+
+public enum WrapCoord : uint
+{
+	Coord_0 = 0x00000001,
+	Coord_1 = 0x00000002,
+	Coord_2 = 0x00000004,
+	Coord_3 = 0x00000008,
+}
