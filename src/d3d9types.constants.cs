@@ -1,0 +1,41 @@
+namespace D3d9.Types;
+
+public static class Constants
+{
+	public const uint D3D_MAX_SIMULTANEOUS_RENDERTARGETS = 4;
+	public const uint D3DRENDERSTATE_WRAPBIAS = 128;
+	public const uint D3DDMAPSAMPLER = 256;
+	public const uint D3DVERTEXTEXTURESAMPLER0 = D3DDMAPSAMPLER + 1;
+	public const uint D3DVERTEXTEXTURESAMPLER1 = D3DDMAPSAMPLER + 2;
+	public const uint D3DVERTEXTEXTURESAMPLER2 = D3DDMAPSAMPLER + 3;
+	public const uint D3DVERTEXTEXTURESAMPLER3 = D3DDMAPSAMPLER + 4;
+	public const uint D3DTSS_TCI_PASSTHRU = 0x00000000;
+	public const uint D3DTSS_TCI_CAMERASPACENORMAL = 0x00010000;
+	public const uint D3DTSS_TCI_CAMERASPACEPOSITION = 0x00020000;
+	public const uint D3DTSS_TCI_CAMERASPACEREFLECTIONVECTOR = 0x00030000;
+	public const uint D3DTSS_TCI_SPHEREMAP = 0x00040000;
+	public const uint MAXD3DDECLUSAGE = 13;
+	public const uint MAXD3DDECLUSAGEINDEX = 15;
+	public const uint MAXD3DDECLLENGTH = 64;
+	public const uint MAXD3DDECLTYPE = 17;
+	public static D3DVERTEXELEMENT9 D3DDECL_END => new(0xFF, 0, (byte)D3DDECLTYPE.D3DDECLTYPE_UNUSED, 0, 0, 0);
+	public const uint D3DDP_MAXTEXCOORD = 8;
+
+	public const uint D3DSTREAMSOURCE_INDEXEDDATA = 0x40000000;
+	public const uint D3DSTREAMSOURCE_INSTANCEDATA = 0x80000000;
+
+	public const uint D3DSI_OPCODE_MASK = 0x0000FFFF;
+	public const uint D3DSI_INSTLENGTH_MASK = 0x0F000000;
+	public const int D3DSI_INSTLENGTH_SHIFT = 24;
+
+	public static (float, float, float, float) D3DSINCOSCONST1 => (-1.5500992e-006f, -2.1701389e-005f, 0.0026041667f, 0.00026041668f);
+	public static (float, float, float, float) D3DSINCOSCONST2 => (-0.020833334f, -0.12500000f, 1.0f, 0.50000000f);
+
+	public const uint D3DSI_COISSUE = 0x40000000;
+
+	public const uint D3DSP_OPCODESPECIFICCONTROL_MASK = 0x00ff0000;
+	public const int D3DSP_OPCODESPECIFICCONTROL_SHIFT = 16;
+
+	public const uint D3DSI_TEXLD_PROJECT = 0x01 << D3DSP_OPCODESPECIFICCONTROL_SHIFT;
+	public const uint D3DSI_TEXLD_BIAS = 0x02 << D3DSP_OPCODESPECIFICCONTROL_SHIFT;
+}
