@@ -24,6 +24,7 @@ D3DPRIMITIVETYPE => PrimitiveType
 D3DTRANSFORMSTATETYPE => TransformStateType
 D3DRENDERSTATETYPE => RenderStateType
 D3DMATERIALCOLORSOURCE => MaterialColorSource
+D3DTEXTURESTAGESTATETYPE => TextureStageStateType
 
 ### Constants / Macros
 

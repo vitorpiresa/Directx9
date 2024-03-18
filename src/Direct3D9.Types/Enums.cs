@@ -265,3 +265,25 @@ public enum ColorWriteEnable : uint
 	Blue = 0x00000004,
 	Alpha = 0x00000008,
 }
+
+public enum TextureStageStateType
+{
+	ColorOp = 1,
+	ColorArg1 = 2,
+	ColorArg2 = 3,
+	AlphaOp = 4,
+	AlphaArg1 = 5,
+	AlphaArg2 = 6,
+	BumpEnvMat00 = 7,
+	BumpEnvMat01 = 8,
+	BumpEnvMat10 = 9,
+	BumpEnvMat11 = 10,
+	TexCoordIndex = 11,
+	BumpEnvLScale = 12,
+	BumpEnvLOffset = 13,
+	TextureTransformFlags = 24,
+	ColorArg0 = 26,
+	AlphaArg0 = 27,
+	ResultArg = 28,
+	Constant = 32,
+}
