@@ -230,3 +230,10 @@ public enum RenderStateType
 	DestBlendAlpha = 208,
 	BlendOpAlpha = 209,
 }
+
+public enum MaterialColorSource
+{
+	Material = 0,
+	Color1 = 1,
+	Color2 = 2,
+}

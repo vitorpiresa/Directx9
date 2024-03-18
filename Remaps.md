@@ -23,6 +23,7 @@ D3DZBUFFERTYPE => ZBufferType
 D3DPRIMITIVETYPE => PrimitiveType
 D3DTRANSFORMSTATETYPE => TransformStateType
 D3DRENDERSTATETYPE => RenderStateType
+D3DMATERIALCOLORSOURCE => MaterialColorSource
 
 ### Constants / Macros
 
@@ -33,3 +34,5 @@ D3DCLEAR_ => Clear
 D3DTS_WORLDMATRIX => TransformState::WorldMatrix
 D3DTS_WORLD => TransformState::World
 D3DTS_WORLDn => TransformState::Worldn
+
+D3D_MAX_SIMULTANEOUS_RENDERTARGETS => ?
